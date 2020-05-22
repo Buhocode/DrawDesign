@@ -1,0 +1,19 @@
+.header {
+    height: 100vh;
+    background-image: linear-gradient($pink-grey 0%, $pink-grey 70%, $pink-light 100%);
+    display: flex;
+    align-items: center;
+    // background-color: $blue;
+}
+.drawings {
+    background-image: linear-gradient($pink-light, $blue);
+}
+.example {
+    background-image: linear-gradient($blue, $pink);
+    @media (max-width: 576px) {
+        padding-top: 5rem;
+    }
+}
+.resources {
+    background-color: $pink;
+}

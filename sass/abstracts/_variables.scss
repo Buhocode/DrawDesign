@@ -1,0 +1,30 @@
+//colors
+
+$pink: #efa8e4;
+$pink-light: #f8e1f4;
+$pink-grey: #fff0f5;
+$blue: #97e5ef;
+$blue-dark: #67bdc9;
+
+$pink-dark: #f76ee2;
+
+$color-grey-dark: #352f34;
+
+$theme-colors: (
+    "primary": $pink,
+    "info": $pink-light,
+    "success": $blue
+);
+
+$color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #eee;
+
+$grey-dark: #777;
+$grey-dark-2: #999;
+$grey-dark-3: #333;
+
+$color-white: #fff;
+$color-black: #000;
+
+//font
+$default-font-size: 1.6rem;

@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Rubik";
+    src: url("../../assets/fonts/Rubik-Regular.ttf"), url("../../assets/fonts/Rubik-Regular.ttf") format("truetype");
+}
+
+.heading {
+    font-size: 3.8em;
+    color: $color-grey-dark;
+    font-family: "Rubik";
+    font-weight: 500;
+    @media (max-width: 576px) {
+        font-size: 3em;
+    }
+}
+
+.subheading {
+    color: $color-grey-dark;
+    font-size: 1.2em;
+}
+.white{
+    color: $pink-grey;
+    margin-right: 3rem;
+    font-size: 1.6em;
+    @media (max-width: 576px) {
+        font-size: 1.2em;
+        text-align: center;
+    }
+}
+
+.grey{
+    color: $color-grey-dark;
+}

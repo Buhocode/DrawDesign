@@ -1,0 +1,19 @@
+*,*::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit; 
+    /* this box sizing says that it will not include padding and margin to total dimensions of box */
+}
+/* basic reset, adds css to everything for every browser */
+
+
+body {
+    box-sizing: border-box;
+    background-color: $pink-grey !important;
+    /* changes the box model to make the content area the total border size, easier calculations */
+}
+
+::selection { //when object is highlighted
+    // background-color: $color-primary;
+    color: $color-white;
+}
